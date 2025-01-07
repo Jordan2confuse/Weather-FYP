@@ -7,8 +7,16 @@ A real-time weather monitoring and alert system that keeps you informed about we
 
 ## GitHub Codespaces
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-## 🌟 Features
 
+## Setup Instructions
+
+1. Clone this repository
+2. Install requirements:
+   ```pip install -r requirements.txt```
+3. Run the app:
+   ```streamlit run app.py```
+
+## 🌟 Features
 - **Real-time Weather Updates**: Get current weather conditions for any location
 - **Severe Weather Alerts**: Instant notifications for severe weather events
 - **Interactive Maps**: Visualize weather patterns and storm tracking
