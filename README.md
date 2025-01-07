@@ -2,9 +2,8 @@
 
 A real-time weather monitoring and alert system that keeps you informed about weather conditions and potential hazards in your area.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit_app.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
 ## 🌟 Features
 
 - **Real-time Weather Updates**: Get current weather conditions for any location
