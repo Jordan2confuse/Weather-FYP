@@ -7,7 +7,7 @@ def main():
     st.write("Upload your Random Forest model (JSON format) to view its contents.")
 
     # File uploader for the JSON model
-    model_file = st.file_uploader("Upload Random Forest Model (JSON File):", type=["json"])
+    model_file = st.file_uploader("C:\Users\Jordan Boo\OneDrive\Desktop\random_forest_model.json.R"):", type=["json"])
     
     if model_file:
         # Load and display the JSON model
