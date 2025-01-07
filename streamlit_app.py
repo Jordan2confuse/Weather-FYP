@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('🎈 Welcome to the Weather Alert System!')
 
-st.write('Hello world!')
+st.write('Get your latest weather updates!')
