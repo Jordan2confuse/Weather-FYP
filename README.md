@@ -1,7 +1,4 @@
 # ⚠️💀🌀🌡️☁️ WEATHER ALERT SYSTEMS
-```
-⬆️ (Replace above with your app's name)
-```
 
 Get your latest weather updates now!
 
