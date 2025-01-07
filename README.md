@@ -1,9 +1,9 @@
-# 📦 Streamlit App Starter Kit 
+# ⚠️💀🌀🌡️☁️ WEATHER ALERT SYSTEMS
 ```
 ⬆️ (Replace above with your app's name)
 ```
 
-Description of the app ...
+Get your latest weather updates now!
 
 ## Demo App
 
