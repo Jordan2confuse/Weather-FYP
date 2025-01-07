@@ -1,7 +1,8 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+import streamlit as st
+
+st.title('🌡️🌀💀⚠️ Welcome to the Weather Alert System!')
+
+st.write('Get your latest weather updates!')
 
 Description of the app ...
 
