@@ -1,26 +1,24 @@
-## WEATHER ALERT
+# Random Forest Classifier Web App
 
-st.title('🌡️🌀💀⚠️ Welcome to the Weather Alert System!')
+This is a Streamlit web application that serves predictions from a Random Forest model trained in R.
 
-st.write('Get your latest weather updates!')
+## Setup
 
-Description of the app ...
+1. Install the required packages:
+2. Make sure you have R installed on your system
+3. Place your trained model file (`random_forest_model.rds`) in the `model` folder
+4. Run the application:
 
-## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+streamlit run streamlit_app.py
 
-## GitHub Codespaces
+## Features
+- Interactive web interface
+- Real-time predictions
+- Input validation
+- Error handling
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+## Requirements
+- Python 3.7+
+- R installation
+- Packages listed in requirements.txt
