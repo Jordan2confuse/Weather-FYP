@@ -1,4 +1,4 @@
-# 🌡️ Weather Alert System
+# 🌡️ WeatherWise Alert System
 
 A real-time weather monitoring and alert system that keeps you informed about weather conditions and potential hazards in your area.
 
