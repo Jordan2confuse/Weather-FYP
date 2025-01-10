@@ -3,8 +3,8 @@ import json
 
 # Streamlit App
 def main():
-    st.title("Upload Random Forest Model")
-    st.write("Upload your Random Forest model (JSON format) to view its contents.")
+    st.title("WeatherWise Alerts")
+    st.write("Get your latest weather prediction here!")
 
     # File uploader for the JSON model
     model_file = st.file_uploader("C:/Users/Jordan Boo/OneDrive/Desktop/random_forest_model.json.R", type=["json"])
