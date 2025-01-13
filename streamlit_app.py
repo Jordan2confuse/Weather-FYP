@@ -7,7 +7,7 @@ def main():
     st.write("Get your latest weather prediction here!")
 
     # File uploader for the JSON model
-    model_file = st.file_uploader("C:/Users/Jordan Boo/OneDrive/Desktop/random_forest_model.json.R", type=["json"])
+    model_file = st.file_uploader("C:/Users/Jordan Boo/OneDrive/Desktop/random_forest_model.json", type=["json"])
 
     
     if model_file:
