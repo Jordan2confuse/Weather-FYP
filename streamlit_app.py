@@ -7,7 +7,7 @@ def main():
     st.write("Get your latest weather prediction here!")
 
     # File uploader for the JSON model
-    model_file = st.file_uploader(View your model", type=["json"])
+    model_file = st.file_uploader("View your model", type=["json"])
 
     
     if model_file:
