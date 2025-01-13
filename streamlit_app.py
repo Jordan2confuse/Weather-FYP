@@ -1,20 +1,22 @@
 import streamlit as st
-import json
+import pickle
 
 # Streamlit App
 def main():
     st.title("WeatherWise Alerts")
     st.write("Get your latest weather prediction here!")
 
-    # File uploader for the JSON model
-    model_file = st.file_uploader("View your model", type=["json"])
+    # File uploader for the PKL model
+    model_file = st.file_uploader("View your model", type=["pkl"])
 
-    
     if model_file:
-        # Load and display the JSON model
-        model_components = json.load(model_file)
+        # Load the pickle model
+        model = pickle.load(model_file)
         st.success("Model uploaded successfully!")
-        st.json(model_components)
+
+        # Display the type of model or some basic details about it
+        st.write(f"Model Type: {type(model)}")
+        st.write(f"Model details: {model}")
 
 if __name__ == "__main__":
     main()
